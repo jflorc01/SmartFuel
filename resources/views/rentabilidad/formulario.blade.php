@@ -14,12 +14,12 @@
 
                     <div class="mb-3">
                         <label for="kilometros" class="form-label">Kilómetros del reparto</label>
-                        <input type="number" step="0.01" class="form-control" id="kilometros" name="kilometros" placeholder="Ej. 45.5" required>
+                        <input type="number" step="0.01" min="0" class="form-control" id="kilometros" name="kilometros" placeholder="Ej. 45.5" required>
                     </div>
 
                     <div class="mb-3">
                         <label for="importe_pedido" class="form-label">Importe del pedido (€)</label>
-                        <input type="number" step="0.01" class="form-control" id="importe_pedido" name="importe_pedido" placeholder="Ej. 150.00" required>
+                        <input type="number" step="0.01" min="0" class="form-control" id="importe_pedido" name="importe_pedido" placeholder="Ej. 150.00" required>
                     </div>
 
                     <div class="mb-3">

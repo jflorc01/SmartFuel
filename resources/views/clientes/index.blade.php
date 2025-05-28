@@ -55,7 +55,7 @@
                             </tr>
                         @empty
                             <tr>
-                                <td colspan="4" class="text-center text-muted">No hay clientes disponibles.</td>
+                                <td colspan="5" class="text-center text-muted">No hay clientes disponibles.</td>
                             </tr>
                         @endforelse
                     </tbody>
